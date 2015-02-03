@@ -2,6 +2,8 @@
 
 Reimplement your own version of Javascript's Function.prototype.bind.
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+
 ```javascript
 
 var aboutMe = function () {
@@ -32,5 +34,6 @@ var just5 = add.bind(null, 2, 3);
 
 just5();  // 5
 just5(2); // 5
+just5(4); // 5
 
 ```
